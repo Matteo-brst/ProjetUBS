@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Mon Portfolio</h1>
+    <a href="index.html">À propos de moi</a></li>
+    <a href="parcours.html">Parcours</a></li>
+    <a href="experiences_compétences.html">Expériences et Compétences</a></li>
+  
+  </header>
+   <div class="Moi">
+    <div class="Présentation">
+      <img src="Moi.jpg" alt="Photo de moi">
+      <p>
+      Bonjour et bienvenue sur mon site ! Je m'appelle Mattéo BRASSART, j'ai 20 ans et je suis actuellement en formation pour devenir ingénieur. 
+      Voici, a travers ce site, la présentation de mon parcours scolaire, mes expériences professionnelles ainsi que les compétences que j'ai développées au fil du temps. 
+      <br>
+      <a href="Matteo_BRASSART_CV.pdf" download class="cv-button">Télécharger mon CV</a>
+      </p>
+    </div>
+
+  <div class="Passions">
+  <h2>Mes passions</h2>
+  <script>
+    function passion(choisi) {
+      var image;
+      if (choisi == "parachute") {
+        image = "parachute.jpg";
+      } else if (choisi == "voyager") {
+        image = "voyager.jpg";
+      } else if (choisi == "karting") {
+        image = "karting.jpg";
+      } else if (choisi == "festivals") {
+        image = "festivals.jpg";
+      }
+      document.getElementById('monImage').src = image;
+    }
+  </script>
+
+  <img id="monImage" src="parachute.jpg" width="1050" height="400">
+
+  <p>
+    <button class="btn" onclick="passion('parachute')">Parachute</button>
+    <button class="btn" onclick="passion('voyager')">Voyager</button>
+    <button class="btn" onclick="passion('karting')">Karting</button>
+    <button class="btn" onclick="passion('festivals')">Festivals</button>
+  </p>
+</div>
+
+
+    <div class="Coordonnées">
+      <h2>Mes coordonnées</h2>
+      <p>
+      Tel : 07 68 35 04 01 
+      <br>
+      <br>
+      Email : matteo.brassart.pro@gmail.com
+      </p>
+      <a href="mailto:matteo.brassart.pro@gmail.com" class="btn">Me contacter</a>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Mattéo BRASSART — Tous droits réservés
+  </footer>
+</body>
+</html>
+
+

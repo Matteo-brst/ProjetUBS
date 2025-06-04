@@ -1,0 +1,243 @@
+/* === Styles Communs === */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+footer {
+  background-color: #3f3f5f;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+header {
+  background-color: #3f3f5f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 10px;
+  font-size: 2em;
+}
+
+header a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+header a:hover {
+  color: orange;
+}
+
+h2 {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 1.8em;
+  color: #3f3f5f;
+}
+
+/* === Section Présentation (index.html) === */
+.Moi {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Présentation {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.Présentation img {
+  width: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.Présentation p {
+  flex: 1;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.cv-button {
+  border: none;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cv-button:hover {
+  background-color: rgb(232, 168, 49);
+}
+
+.Coordonnées, .Passions {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.Coordonnées h2 {
+  margin-top: 0;
+  color: #3f3f5f;
+}
+
+.Passions .btn, .Coordonnées .btn {
+  border: none;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Passions .btn {
+  padding: 15px 20px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: rgb(232, 168, 49);
+}
+
+#monImage {
+  max-width: 100%;
+  height: 100%;
+}
+
+/* === Parcours (parcours.html) === */
+.menu1, .menu2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.menu {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 450px;
+}
+
+.menu:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.liens {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 20px;
+}
+
+.menu h3 {
+  margin-top: 0;
+  color: orange;
+  font-weight: 700;
+}
+
+.menu p {
+  margin: 10px 0 0;
+  line-height: 1.5;
+}
+
+.menu3 {
+  background-color: white;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 920px;
+}
+
+.menu3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.menu3 h3 {
+  margin-top: 0;
+  color: orange;
+  font-weight: 700;
+}
+
+.menu3 p {
+  margin: 10px 0 0;
+  line-height: 1.5;
+}
+
+.alternance {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  padding: 20px;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+/* Expérience et compétences */
+
+.menu4 {
+  background-color: white;
+  padding: 15px 15px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 450px;
+}
+
+.menu4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.menu4 h3 {
+  margin-top: 0;
+  color: orange;
+  font-weight: 700;
+}
+
+.menu4 p {
+  margin: 10px 0 0;
+  line-height: 1.5;
+}
